@@ -14,8 +14,8 @@
     "lint-staged": "9.0.0",
     "pre-commit": "^1.2.2",
     "prettier": "^1.13.4",
-    "webpack": "^3.5.5",
-    "webpack-bundle-analyzer": "^3.3.2",
+    "webpack": "^4.26.0",
+    "webpack-bundle-analyzer": "^4.0.0",
     "webpack-manifest-plugin": "^1.3.1"
   },
   "scripts": {
@@ -24,7 +24,9 @@
     "build:production": "npm run build && npm run build:sitemaps",
     "start": "webpack --watch",
     "lint:staged": "lint-staged",
-    "format": "yarn prettier --write '**/*.{js,md,scss}'"
+    "format": "yarn prettier --write '**/*.{js,md,scss}'",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "lint-staged": {
     "*.{js,md,scss}": [
@@ -56,9 +58,11 @@
     "react-transition-group": "^1.2.1",
     "unescape-html": "^1.0.0",
     "unfetch": "^3.0.0",
-    "xss": "^1.0.3"
+    "xss": "^1.0.3",
+    "@snyk/protect": "latest"
   },
   "resolutions": {
     "algoliasearch": "3.27.1"
-  }
+  },
+  "snyk": true
 }
