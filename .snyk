@@ -1,0 +1,89 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - webpack-bundle-analyzer > lodash:
+        patched: '2023-08-21T06:37:00.050Z'
+        id: SNYK-JS-LODASH-567746
+        path: webpack-bundle-analyzer > lodash
+    - webpack-manifest-plugin > lodash:
+        patched: '2023-08-21T06:37:00.050Z'
+        id: SNYK-JS-LODASH-567746
+        path: webpack-manifest-plugin > lodash
+    - babel-core > lodash:
+        patched: '2023-08-21T06:37:00.050Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-core > lodash
+    - webpack > async > lodash:
+        patched: '2023-08-21T06:37:00.050Z'
+        id: SNYK-JS-LODASH-567746
+        path: webpack > async > lodash
+    - babel-core > babel-generator > lodash:
+        patched: '2023-08-21T06:37:00.050Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-core > babel-generator > lodash
+    - babel-core > babel-register > lodash:
+        patched: '2023-08-21T06:37:00.050Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-core > babel-register > lodash
+    - babel-preset-env > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2023-08-21T06:37:00.050Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-env > babel-plugin-transform-es2015-block-scoping >
+          lodash
+    - babel-core > babel-generator > babel-types > lodash:
+        patched: '2023-08-21T06:37:00.050Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-core > babel-generator > babel-types > lodash
+    - babel-core > babel-helpers > babel-template > lodash:
+        patched: '2023-08-21T06:37:00.050Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-core > babel-helpers > babel-template > lodash
+    - babel-core > babel-register > babel-core > lodash:
+        patched: '2023-08-21T06:37:00.050Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-core > babel-register > babel-core > lodash
+    - babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2023-08-21T06:37:00.050Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-env > babel-plugin-transform-es2015-classes >
+          babel-helper-define-map > lodash
+    - babel-preset-env > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2023-08-21T06:37:00.050Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-env > babel-plugin-transform-es2015-sticky-regex >
+          babel-helper-regex > lodash
+    - babel-preset-react > babel-plugin-transform-react-jsx > babel-helper-builder-react-jsx > babel-types > lodash:
+        patched: '2023-08-21T06:37:00.050Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-react > babel-plugin-transform-react-jsx >
+          babel-helper-builder-react-jsx > babel-types > lodash
+    - babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2023-08-21T06:37:00.050Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-core > babel-helpers > babel-template > babel-traverse > lodash
+    - babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > lodash:
+        patched: '2023-08-21T06:37:00.050Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-stage-2 > babel-plugin-transform-class-properties >
+          babel-helper-function-name > babel-template > lodash
+    - babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2023-08-21T06:37:00.050Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-stage-2 > babel-plugin-transform-class-properties >
+          babel-helper-function-name > babel-helper-get-function-arity >
+          babel-types > lodash
+    - babel-preset-stage-2 > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2023-08-21T06:37:00.050Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-stage-2 > babel-plugin-transform-class-properties >
+          babel-helper-function-name > babel-template > babel-traverse > lodash
